@@ -1,0 +1,97 @@
+*
+{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid; */
+    width: 60vw;
+    height: 50vh;
+    border-radius: 15px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;            
+    margin: auto;
+    background: black;
+    color: goldenrod;
+    /* font-family: 'Ysabeau', sans-serif; */
+    font-family: 'Sen', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+    text-transform: uppercase;
+}
+
+.main , .counts
+{
+    height: 25vh;
+}
+.main
+{
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.main #num
+{
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+.counts
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counts button
+{
+    width:90px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: large;
+    color: goldenrod;
+    background: black;
+    border: 0;
+    filter: drop-shadow(0px 0px 5px gray);
+    transition: all ease 0.6s;
+}
+
+.reset
+{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: large;
+    color: black;
+    background: goldenrod;
+    border: 0;
+    filter: drop-shadow(0px 0px 5px gray);
+    transition: all ease 0.6s;
+    position: absolute;
+    top: 9%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.reset:hover
+{
+    transform: scale(1.1);
+    background: black;
+    color: goldenrod;
+}
+button:hover
+{
+    transform: scale(1.1);
+    background: goldenrod;
+    color: black;
+}
